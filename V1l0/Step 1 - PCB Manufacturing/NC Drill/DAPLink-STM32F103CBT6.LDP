@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\00_SvnCheckout\01_HWCheckout\07_SkyHW_AltiumProjects\0B_HWDesign\0C_Projects\DAPLink-STM32F103CBT6\03_PCB\DAPLink-STM32F103CBT6.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=daplink-stm32f103cbt6-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=daplink-stm32f103cbt6-slotholes.txt|DrillLayers=gtl,gbl

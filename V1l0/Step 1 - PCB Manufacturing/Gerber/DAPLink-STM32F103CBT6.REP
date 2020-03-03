@@ -1,0 +1,346 @@
+*************************************************************
+FileName = DAPLink-STM32F103CBT6.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Solder
+      File : DAPLink-STM32F103CBT6.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : DAPLink-STM32F103CBT6.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : DAPLink-STM32F103CBT6.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : DAPLink-STM32F103CBT6.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : DAPLink-STM32F103CBT6.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D59
+    D60
+    D61
+    D62
+    D63
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : DAPLink-STM32F103CBT6.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D43
+    D59
+    D60
+    D61
+    D62
+    D63
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : DAPLink-STM32F103CBT6.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D43
+    D54
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : DAPLink-STM32F103CBT6.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D68
+    D69
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : DAPLink-STM32F103CBT6.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : DAPLink-STM32F103CBT6.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D14
+    D15
+    D51
+    D67
+*************************************************************
+
+*************************************************************
+Generating : Bottom Glue Points
+      File : DAPLink-STM32F103CBT6.GM10
+
+    Adding Layer      : Bottom Glue Points
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : 8_COMPONENT_CAVITY
+      File : DAPLink-STM32F103CBT6.GM8
+
+    Adding Layer      : 8_COMPONENT_CAVITY
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : DAPLink-STM32F103CBT6.GM6
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : DAPLink-STM32F103CBT6.GM4
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : DAPLink-STM32F103CBT6.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dimensions
+      File : DAPLink-STM32F103CBT6.GM3
+
+    Adding Layer      : Dimensions
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : DAPLink-STM32F103CBT6.GM13
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Board
+      File : DAPLink-STM32F103CBT6.GM1
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : DAPLink-STM32F103CBT6.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : DAPLink-STM32F103CBT6.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+

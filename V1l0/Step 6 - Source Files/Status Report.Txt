@@ -1,0 +1,16 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 18:12:37 On 2020/3/3
+
+Output: Copy Files
+Type  : Copy Files
+From  : Project [DAPLink-STM32F103CBT6.PrjPcb]
+   Generated File[01-CoverPage.SchDoc]
+   Generated File[02-DAPLink-STM32F103CBT6.SchDoc]
+   Generated File[DAPLink-STM32F103CBT6.PcbDoc]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 18:12:37 On 2020/3/3
