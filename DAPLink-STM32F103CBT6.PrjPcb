@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for DAPLink-STM32F103CBT6
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=PLDEWQPF
 
 [Document3]
 DocumentPath=02_SCH\01-CoverPage.SchDoc
@@ -157,7 +157,109 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=V1I1\OUT\BOM-V1I1.OutJob
+DocumentPath=04_OUT\S101-Gerber文件.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=04_OUT\S102-钻孔文件.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=04_OUT\S201-坐标文件.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=04_OUT\S202-物料清单.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=04_OUT\S401-3D文件.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=04_OUT\S501-原理图PDF.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=04_OUT\S601-源文件SCH.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -174,7 +276,107 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
+DocumentPath=归档输出文件-CN\Step 6 - 源文件\02_SCH\01-CoverPage.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=归档输出文件-CN\Step 6 - 源文件\02_SCH\02-DAPLink-STM32F103CBT6.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=V1I1\BOM\Bill of Materials-DAPLink-STM32F103CBT6.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\NC Drill\DAPLink-STM32F103CBT6-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\NC Drill\DAPLink-STM32F103CBT6-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\NC Drill\DAPLink-STM32F103CBT6.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\NC Drill\DAPLink-STM32F103CBT6.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=归档输出文件-CN\Step 6 - 源文件\03_PCB\DAPLink-STM32F103CBT6.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.REP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=归档输出文件-CN\Step 1 - PCB生产\Gerber\DAPLink-STM32F103CBT6.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=归档输出文件-CN\Step 2 - 电路板装配\BOM\DAPLink-STM32F103CBT6.xls
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=归档输出文件-CN\Step 2 - 电路板装配\BOM\No Variations.xls
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=归档输出文件-CN\Step 2 - 电路板装配\Pick Place\Pick Place for DAPLink-STM32F103CBT6.csv
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=归档输出文件-CN\Step 2 - 电路板装配\Pick Place\Pick Place for DAPLink-STM32F103CBT6.txt
 DItemRevisionGUID=
 
 [Configuration1]
@@ -186,6 +388,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for DAPLink-STM32F103CBT6
 
 [OutputGroup1]
 Name=Netlist Outputs
