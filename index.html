@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Project documentation with DAPLink Using STM32F103CBT6.">
+        <meta name="author" content="AISkyLab Team">
+        <link rel="canonical" href="https://blog.xueyusky.cn/AISkyLab/">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>AISkyLab DAPLink-STM32</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="css/extra.css" rel="stylesheet">
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">AISkyLab DAPLink-STM32</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">首页</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">用户指南 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="user-guide/hwdesign-guide/" class="dropdown-item">硬件设计方案</a>
+</li>
+                                    
+<li>
+    <a href="user-guide/swdesign-guide/" class="dropdown-item">源码编译环境</a>
+</li>
+                                    
+<li>
+    <a href="user-guide/configuration/" class="dropdown-item">配置说明</a>
+</li>
+                                    
+<li>
+    <a href="user-guide/source-code-learning/" class="dropdown-item">源码学习</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">关于 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="about/release-notes/" class="dropdown-item">发布记录</a>
+</li>
+                                    
+<li>
+    <a href="about/contributing/" class="dropdown-item">贡献说明</a>
+</li>
+                                    
+<li>
+    <a href="about/license/" class="dropdown-item">证书与许可</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="support/support_us/" class="nav-link">赞助</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="user-guide/hwdesign-guide/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/AISkyLab/AISkylab-DAPLink-STM32" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#aiskylab-daplink-stm32f103cbt6" class="nav-link">AISkyLab-DAPLink-STM32F103CBT6调试器</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link">简介</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">硬件设计</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#dap-link" class="nav-link">DAP-Link开发环境搭建</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">小结</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="aiskylab-daplink-stm32f103cbt6">AISkyLab-DAPLink-STM32F103CBT6调试器<a class="headerlink" href="#aiskylab-daplink-stm32f103cbt6" title="Permanent link"></a></h1>
+<p><a href=".">中文文档</a> </p>
+<h2 id="_1">简介<a class="headerlink" href="#_1" title="Permanent link"></a></h2>
+<p>AISkyLab-DAPLink-STM32F103CBT6 基于开源硬件项目： <a href="https://github.com/ARMmbed/mbed-HDK">ARMmbed - mbed-HDK</a> 和 <a href="https://github.com/ARMmbed/DAPLink">ArmMbed - DAPLink</a>项目。其中的原理图按照官方图纸设计STDAP_V_1_0_0-SCH进行设计，其中做出了部分改进：</p>
+<ol>
+<li>USB连接器改为16Pin type-c接口</li>
+<li>下载接口使用gh1.25-8Pin。</li>
+</ol>
+<p><img alt="不显示请点击" src="PIC/3d-top-V1I1.jpg" /></p>
+<p>其主要功能有：</p>
+<ul>
+<li>MSC -拖拽下载功能</li>
+<li>CDC - 可用来打印，跟踪和仿真的虚拟串口</li>
+<li>HID - CMSIS-DAP 兼容调试通道</li>
+<li>WEBUSB HID - CMSIS-DAP 兼容调试通道</li>
+</ul>
+<h2 id="_2">硬件设计<a class="headerlink" href="#_2" title="Permanent link"></a></h2>
+<p>使用该项目，你可以按照下面的步骤：</p>
+<ol>
+<li>克隆我的项目或者<strong>fork之后从您fork的仓库克隆（我更推荐这种方式）</strong>。</li>
+<li>使用的Altium designer 版本： 推荐 AD 17之后的版本。</li>
+</ol>
+<p>如果你不想自己做硬件，想用通过现有的硬件来学习DAP-Link的源码和设计思路，你可以购买我已经做好的电路。</p>
+<p><a href="https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w137644-21459655781.38.379c570fqAXVQ9&amp;id=622440970348"><img alt="不显示请点击查看" src="PIC/realboard.png" /></a></p>
+<p>----&gt;&gt;    <a href="https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w137644-21459655781.38.379c570fqAXVQ9&amp;id=622440970348">淘宝店铺DAPLink</a></p>
+<h2 id="dap-link">DAP-Link开发环境搭建<a class="headerlink" href="#dap-link" title="Permanent link"></a></h2>
+<p>如果你想下载官方的源码，请参考这个项目：  <a href="https://github.com/ARMmbed/DAPLink">ArmMbed - DAPLink</a></p>
+<p>开发环境的搭建过程请按这里的指导进行： <a href="https://github.com/ARMmbed/DAPLink/blob/master/docs/DEVELOPERS-GUIDE.md">源码编译指导</a></p>
+<h2 id="_3">小结<a class="headerlink" href="#_3" title="Permanent link"></a></h2>
+<p>感谢ARMmbed项目的开发者，但因为原版资料为英文资料，国内众多开发者使用不方便。且基于STM32的DAPLink固件编译需要使用python运行脚本，开发环境的搭建对于初学者有一定的难度，我还是决定将自己所做的这些工作开源出来，希望能够为开源事业做出一份贡献。</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 <a href="https://aiskylab.com">雪域蓝天</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">AISkyLab Team</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.1.2
+Build Date UTC : 2020-08-21 04:22:46.628648+00:00
+-->
