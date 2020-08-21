@@ -1,0 +1,45 @@
+site_name: AISkyLab DAPLink-STM32
+site_url: https://blog.xueyusky.cn/AISkyLab
+site_description: Project documentation with DAPLink Using STM32F103CBT6.
+site_author: AISkyLab Team
+
+repo_url: https://github.com/AISkyLab/AISkylab-DAPLink-STM32
+edit_uri: ""
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+nav:
+    - 首页: index.md
+    - 用户指南:
+        - 硬件设计方案: user-guide/hwdesign-guide.md
+        - 源码编译环境: user-guide/swdesign-guide.md
+        - 配置说明: user-guide/configuration.md
+        - 源码学习: user-guide/source-code-learning.md
+    - 关于:
+        - 发布记录: about/release-notes.md
+        - 贡献说明: about/contributing.md
+        - 证书与许可: about/license.md
+    - 赞助: support/support_us.md
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+    - mdx_gh_links:
+        user: mkdocs
+        repo: mkdocs
+
+copyright: Copyright &copy; 2020 <a href="https://aiskylab.com">雪域蓝天</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">AISkyLab Team</a>.
+
+
+plugins:
+    - search

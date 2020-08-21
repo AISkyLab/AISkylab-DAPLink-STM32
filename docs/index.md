@@ -1,6 +1,6 @@
 # AISkyLab-DAPLink-STM32F103CBT6调试器
 
-[中文文档](README.md)  |  [English](README_EN.md)
+[中文文档](index.md) 
 
 ## 简介
 
@@ -9,7 +9,7 @@ AISkyLab-DAPLink-STM32F103CBT6 基于开源硬件项目： [ARMmbed - mbed-HDK](
 1. USB连接器改为16Pin type-c接口
 2. 下载接口使用gh1.25-8Pin。
 
-![不显示请点击](./docs/PIC/3d-top-V1I1.jpg)
+![不显示请点击](./PIC/3d-top-V1I1.jpg)
 
 其主要功能有：
 
@@ -27,7 +27,7 @@ AISkyLab-DAPLink-STM32F103CBT6 基于开源硬件项目： [ARMmbed - mbed-HDK](
 
 如果你不想自己做硬件，想用通过现有的硬件来学习DAP-Link的源码和设计思路，你可以购买我已经做好的电路。
 
-[![不显示请点击查看](./docs/PIC/realboard.png)](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w137644-21459655781.38.379c570fqAXVQ9&id=622440970348)
+[![不显示请点击查看](./PIC/realboard.png)](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w137644-21459655781.38.379c570fqAXVQ9&id=622440970348)
 
 ---->>    [淘宝店铺DAPLink](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w137644-21459655781.38.379c570fqAXVQ9&id=622440970348)
 
@@ -41,9 +41,4 @@ AISkyLab-DAPLink-STM32F103CBT6 基于开源硬件项目： [ARMmbed - mbed-HDK](
 
 感谢ARMmbed项目的开发者，但因为原版资料为英文资料，国内众多开发者使用不方便。且基于STM32的DAPLink固件编译需要使用python运行脚本，开发环境的搭建对于初学者有一定的难度，我还是决定将自己所做的这些工作开源出来，希望能够为开源事业做出一份贡献。
 
-如果你喜欢我的项目，希望你能在右上角的Star处，帮我点一下，加个赞，非常感谢！！！
-
-当然，如果你愿意赞助我一杯咖啡，我会在以后做更多更好的项目。
-
-![支付宝](./docs/PIC/zhifubao.jpg)
 
